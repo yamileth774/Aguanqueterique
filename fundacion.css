@@ -1,0 +1,61 @@
+P{
+	font-size:20px;
+	font-family:"Arial";
+	text-align:justify;
+}
+body{
+	background: rgb(243,255,129);
+background: radial-gradient(circle, rgba(243,255,129,0.8267682072829132) 0%, rgba(191,240,35,0.8267682072829132) 18%, rgba(238,174,202,1) 88%);
+     
+    }
+h1{
+    background: rgb(243,255,129);
+background: linear-gradient(90deg, rgba(243,255,129,0.8267682072829132) 0%, rgba(191,240,35,0.8267682072829132) 18%, rgba(238,174,202,1) 84%);
+	color:#000000;
+	text-align:center;
+    border-radius: 20px;
+    font-family: "Algerian";
+    border-style: groove;
+    
+	
+     }
+h2{  
+   
+	color:#923333;
+	
+    
+
+
+}
+foot{
+	background-color:#130e0a;
+   }
+
+*{
+    padding: 5px;
+    margin: 0px;
+}
+#header{
+    margin: auto;
+    width: 900px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background: rgb(243,255,129);
+background: linear-gradient(90deg, rgba(243,255,129,0.8267682072829132) 0%, rgba(137,159,66,0.8267682072829132) 35%, rgba(238,174,202,1) 95%);
+    color: #1a1717;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    font-family: "Arial black";
+    border-style: outset;
+    border-radius: 10px;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: #696666;
+}
